@@ -28,19 +28,19 @@ setup(
         "browsergym~=0.13.3",
         "uvicorn~=0.34.0",
         "unidiff~=0.7.5",
-        "browser-use~=0.1.40",
+        #"browser-use~=0.1.40",
         "googlesearch-python~=1.3.0",
         "aiofiles~=24.1.0",
         "pydantic_core>=2.27.2,<2.28.0",
         "colorama~=0.4.6",
     ],
     classifiers=[
-        "Programming Language :: Python :: 3",
+        #"Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.12",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.12",
+    python_requires=">=3.9",
     entry_points={
         "console_scripts": [
             "openmanus=main:main",
