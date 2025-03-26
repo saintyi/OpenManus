@@ -70,9 +70,9 @@ cd OpenManus
 
 ```bash
 uv venv --python 3.12
-source .venv/bin/activate  # Unix/macOS의 경우
+#source .venv/bin/activate  # Unix/macOS의 경우
 # Windows의 경우:
-# .venv\Scripts\activate
+.venv\Scripts\activate
 ```
 
 4. 종속성을 설치합니다:
