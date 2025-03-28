@@ -80,10 +80,13 @@ uv venv --python 3.12
 ```bash
 uv pip install -r requirements.txt
 ```
+uv pip install -e .
+uv pip install browser_use-0.1.40-py3-none-any.whl
+uv pip show pydantic
 
 ### 브라우저 자동화 도구 (선택사항)
 ```bash
-playwright install
+uv pip install playwright
 ```
 
 ## 설정 방법
